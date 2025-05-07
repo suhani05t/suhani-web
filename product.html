@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | Sun Kissed Nails</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Lato', sans-serif; }
+    h1, h2, h3 { font-family: 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 0.5px; }
+
+    .product-card {
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="bg-yellow-50 text-yellow-900">
+
+  
+  <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl text-yellow-600">Sun Kissed Nails</h1>
+    <ul class="flex gap-4 text-sm">
+      <li><a href="index.html" class="hover:text-yellow-500">Home</a></li>
+      <li><a href="about.html" class="hover:text-yellow-500">About</a></li>
+      <li><a href="services.html" class="hover:text-yellow-500">Services</a></li>
+      <li><a href="product.html" class="hover:text-yellow-500">Products</a></li>
+      <li><a href="contact.html" class="hover:text-yellow-500">Contact</a></li>
+    </ul>
+  </nav>
+
+  
+  <main class="p-6 text-center">
+    <h2 class="text-4xl text-yellow-700 mb-6">Our Products</h2>
+    <p class="mb-6">Launching soon: Essentials designed for perfect nails at home.</p>
+
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+      
+      <div class="product-card bg-white p-4 rounded shadow hover:shadow-lg">
+        <img src="https://i.pinimg.com/736x/2a/5f/93/2a5f9341b3d7cc910bf11abe793a6c18.jpg" alt="Cuticle Oil" class="rounded mb-4">
+        <h3 class="text-lg text-yellow-600">Cuticle Oil</h3>
+        <p class="text-sm">Hydrates and softens. ₹299</p>
+      </div>
+
+      
+      <div class="product-card bg-white p-4 rounded shadow hover:shadow-lg">
+        <img src="https://i.pinimg.com/736x/4e/13/ec/4e13ec65dba98615552b7714e3267f56.jpg" alt="Nail Polish Set" class="rounded mb-4">
+        <h3 class="text-lg text-yellow-600">Nail Polish Set</h3>
+        <p class="text-sm">Pastel trio – ₹499</p>
+      </div>
+
+      
+      <div class="product-card bg-white p-4 rounded shadow hover:shadow-lg">
+        <img src="https://i.pinimg.com/736x/76/00/8e/76008e1097c0da2a095550df371210cc.jpg" alt="Nail Art Kit" class="rounded mb-4">
+        <h3 class="text-lg text-yellow-600">Nail Art Kit</h3>
+        <p class="text-sm">Tools and paints for your nail art – ₹799</p>
+      </div>
+    </div>
+
+    
+    <div class="text-center mt-8">
+      <a href="contact.html" class="bg-yellow-600 text-white py-3 px-6 rounded-full text-xl font-semibold hover:bg-yellow-700">Inquire Now</a>
+    </div>
+  </main>
+
+  
+  <footer class="bg-white text-center text-xs text-yellow-600 py-4 mt-10 shadow-inner">
+    © 2025 Sun Kissed Nails. All rights reserved.
+  </footer>
+
+</body>
+</html>
